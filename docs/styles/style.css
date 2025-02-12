@@ -6,6 +6,7 @@
     --bgc: #3f3f3f;
     --secondary-colour: oklch(61.66% 0.1074 53.17);
     --primary-colour: oklch(72.77% 0.1758 42.4);
+    --border-rounding: 1rem;
 }
 
 /* HTML */
@@ -27,17 +28,34 @@ body {
     /* box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ); */
     backdrop-filter: blur( 4px );
     -webkit-backdrop-filter: blur( 4px );
-    border-radius: 1rem;
+    border-radius: var(--border-rounding);
     border: 0.125rem solid rgba( 255, 255, 255, 0.18 );
 }
 
 .body-content {
     padding: 1rem;
+    display: grid;
+
+    gap: 1rem;
+
+    grid-template-columns: 0.375fr auto;
 }
 
 .body-content > * {
     margin-bottom: 1rem;
     padding: 1rem;
+}
+
+.titlebar-hypr {
+    font-weight: 500;
+}
+
+.titlebar-hypr-sel {
+    font-weight: 700;
+    background-color: white;
+    color: var(--primary-colour);
+    padding: 1rem;
+    border-radius: var(--border-rounding);
 }
 
 /* .website-title {
