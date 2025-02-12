@@ -1,0 +1,35 @@
+/* grid n stuff */
+.body-content {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-areas:
+    "header"
+    "sidebar"
+    "main";
+
+    padding-block: 2rem;
+    width: 100vw !important;
+}
+
+.main {
+    grid-area: main;
+}
+
+.sidebar {
+    grid-area: sidebar;
+}
+
+.header {
+    grid-area: header;
+}
+
+/* enable grid if larger than square */
+
+@media (min-aspect-ratio: 1/1) {
+    .body-content {
+        grid-template:
+        "header header" auto
+        "sidebar main" 1fr
+        / 0.25fr 1fr;
+    }
+}
