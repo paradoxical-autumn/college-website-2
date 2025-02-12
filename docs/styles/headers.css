@@ -1,0 +1,21 @@
+.header {
+    background-color: var(--primary-colour);
+    /* height: 250px; */
+    padding: 2rem;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: stretch;
+}
+
+.header-urls {
+    display: flex;
+    flex-direction: row;
+    justify-items: right;
+    justify-content: right;
+    gap: 2rem;
+}
