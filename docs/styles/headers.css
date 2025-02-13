@@ -1,9 +1,10 @@
 @import "folder.css";
 
 .header {
-    background-color: var(--primary-colour);
+    background-color: oklch(from var(--primary-colour) l c h / 10%);
     /* height: 250px; */
     padding: 2rem;
+    border-bottom: 0.125rem solid rgba( 255, 255, 255, 0.18 );
 }
 
 .header-content {
