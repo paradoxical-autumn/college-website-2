@@ -75,6 +75,6 @@ body {
     height: min-content;
 }
 
-/* .website-title {
-    font-style: italic;
-} */
+.website-title {
+    font-size: 2rem;
+}

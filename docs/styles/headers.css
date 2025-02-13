@@ -1,3 +1,5 @@
+@import "folder.css";
+
 .header {
     background-color: var(--primary-colour);
     /* height: 250px; */
@@ -14,7 +16,6 @@
 .header-urls {
     display: flex;
     flex-direction: row;
-    justify-items: right;
     justify-content: center;
     gap: 2rem;
     align-items: center;
