@@ -8,6 +8,8 @@
     --primary-colour: oklch(72.77% 0.1758 42.4);
     --border-rounding: 1rem;
     --content-width: 99ch;
+
+    interpolate-size: allow-keywords;
 }
 
 /* HTML */

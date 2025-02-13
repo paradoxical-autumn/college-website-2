@@ -31,4 +31,18 @@
         flex-direction: column;
         gap: 0rem;
     }
+
+    .navi-ctrl {
+        align-items: center;
+    }
+}
+
+@media (min-width: 99ch) {
+    .hamburger-menu {
+        display: none;
+    }
+
+    .header-urls {
+        height: auto;
+    }
 }

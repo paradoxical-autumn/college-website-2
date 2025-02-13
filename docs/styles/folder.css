@@ -69,13 +69,13 @@ body {
 .hamburger-menu:has(input:checked)::before {
   rotate: 45deg;
   width: var(--x-width);
-  translate: 0 calc(var(--bar-height) / -2);
+  translate: calc(33%/2) calc(var(--bar-height) / -2);
 }
 
 .hamburger-menu:has(input:checked)::after {
   rotate: -45deg;
   width: var(--x-width);
-  translate: 0 calc(var(--bar-height) / 2);
+  translate: calc(33%/2) calc(var(--bar-height) / 2);
 }
 
 .hamburger-menu input:checked {
@@ -86,11 +86,12 @@ body {
 .header-urls {
     overflow: hidden;
     transition: height var(--animation-timing);
+    display: grid;
     height: 0px;
 }
 
 .hamburger-menu:has(input:checked) + .header-urls {
-    height: 3rlh;
+    height: auto;
 }
 
 /* .sidebar {
