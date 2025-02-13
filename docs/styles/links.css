@@ -1,0 +1,12 @@
+a {
+    transition: scale 200ms ease-in-out;
+    transform-origin: center;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    scale: 90%;
+}

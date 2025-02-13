@@ -3,9 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>404</title>
+    <title>[404] autumn's website</title>
+    <link rel="stylesheet" href="/styles/style.css">
+    <script src="/scripts/parallax.js" type="module"></script>
 </head>
 <body>
-    <p>the requested document wasn't found on this server.</p>
+    <aside class="header">
+        <div class="header-content">
+            <h1 class="website-title">WORDMARK</h1>
+            <div class="navi-ctrl">
+                <label class="hamburger-menu">
+                    <input type="checkbox" name="Expanded menu">
+                </label>
+                <nav class="header-urls">
+                    <a class="titlebar-hypr" href="/">Home</a>
+                    <a class="titlebar-hypr" href="/about.html">About Me</a>
+                    <a class="titlebar-hypr" href="/blog.html">Blog</a>
+                </nav>
+            </div>
+        </div>
+    </aside>
+    <div class="bgi" aria-hidden="true">
+        <img src="/img/bgi/uuundulate.svg" class="background-blob bgi1" prlx-in="0.1"/>
+        <img src="/img/bgi/uuundulate-2.svg" class="background-blob bgi2" prlx-in="0.05"/>
+        <img src="/img/bgi/uuundulate-3.svg" class="background-blob bgi3" prlx-in="0.025"/>
+    </div>
+    <div class="body-content">
+        <div class="main glass">
+            <h1>404</h1>
+            <p style="font-size: 1.5rem;">The requested document wasn't found on this server.</p>
+        </div>
+    </div>
 </body>
 </html>

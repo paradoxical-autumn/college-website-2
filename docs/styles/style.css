@@ -1,6 +1,7 @@
 @import "fonts.css";
 @import "headers.css";
 @import "background.css";
+@import "links.css";
 
 /* variables */
 :root {
@@ -26,6 +27,10 @@ html {
 body {
     margin: 0;
     padding: 0;
+}
+
+.main {
+    margin: auto;
 }
 
 .glass {
@@ -72,6 +77,10 @@ body {
     color: var(--primary-colour);
     padding: 1rem;
     border-radius: var(--border-rounding);
+}
+
+.titlebar-hypr {
+    color: white;
 }
 
 .sidebar {
