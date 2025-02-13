@@ -1,0 +1,15 @@
+/* handles weird background shapes */
+/* requires JS */
+
+.background-blob {
+    z-index: -2;
+    opacity: 0.5;
+    position: absolute;
+    transform-origin: top left;
+}
+
+.bgi1 {
+    width: 40vh;
+    top: 11vh;
+    left: 7vw;
+}
