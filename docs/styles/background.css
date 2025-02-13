@@ -1,15 +1,31 @@
 /* handles weird background shapes */
 /* requires JS */
 
+.bgi {
+    overflow: clip;
+}
+
 .background-blob {
     z-index: -2;
     opacity: 0.5;
-    position: absolute;
-    transform-origin: top left;
+    position: fixed;
+    overflow: clip;
 }
 
 .bgi1 {
     width: 40vh;
     top: 11vh;
     left: 7vw;
+}
+
+.bgi2 {
+    width: 51vh;
+    top: 60vh;
+    left: 68vw;
+}
+
+.bgi3 {
+    width: 40vh;
+    top: 91vh;
+    left: 20vw;
 }
