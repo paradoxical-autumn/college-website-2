@@ -9,7 +9,6 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    justify-items: stretch;
 }
 
 .header-urls {
@@ -20,4 +19,15 @@
     gap: 2rem;
     align-items: center;
     align-content: center;
+}
+
+@media (max-width: 66ch) {
+    .header-content {
+        flex-direction: column;
+    }
+
+    .header-urls {
+        flex-direction: column;
+        gap: 0rem;
+    }
 }

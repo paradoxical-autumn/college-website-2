@@ -7,6 +7,7 @@
     --secondary-colour: oklch(61.66% 0.1074 53.17);
     --primary-colour: oklch(72.77% 0.1758 42.4);
     --border-rounding: 1rem;
+    --content-width: 99ch;
 }
 
 /* HTML */
@@ -39,12 +40,18 @@ body {
     flex-direction: row;
     gap: 1rem;
 
-    width: min(1152px, 90vw) !important;
+    width: min(var(--content-width), 90vw) !important;
     margin: auto;
     
     /* display: grid; */
 
     /* grid-template-columns: 1fr 4fr; */
+}
+
+@media (max-width: 99ch) {
+    .body-content {
+        flex-direction: column;
+    }
 }
 
 .body-content > * {
