@@ -9,12 +9,16 @@
     z-index: -2;
     opacity: 0.5;
     position: fixed;
-    overflow: clip;
+    overflow: visible;
+}
+
+.background-blob > img {
+    transform: translate(-50%, -50%);
 }
 
 .bgi1 {
     width: 40vh;
-    top: 11vh;
+    top: 22.7vh;
     left: 7vw;
 }
 
@@ -32,6 +36,6 @@
 
 .bgi4 {
     width: 27.7vh;
-    top: 3vh;
-    left: 63.3vw;
+    top: 12.3vh;
+    left: 80.3vw;
 }
