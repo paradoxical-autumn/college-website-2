@@ -1,0 +1,17 @@
+@media not (prefers-reduced-motion) {
+    span[letter-animation="wave"] > * {
+        white-space: break-spaces;
+        display: inline-block;
+        animation: wave 1200ms ease calc(var(--index) * 100 * 1ms) infinite alternate;
+    }
+}
+
+@keyframes wave {
+    from {
+        animation-timing-function: ease-out;
+    }
+    to {
+        transform: translateY(-0.25em);
+        animation-timing-function: ease-in-out;
+    }
+}
