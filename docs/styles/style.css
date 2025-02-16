@@ -92,4 +92,7 @@ body {
 
 .website-title {
     font-size: 2rem;
+    font-family: 'Work Sans';
+    font-weight: 900;
+    font-style: italic;
 }
