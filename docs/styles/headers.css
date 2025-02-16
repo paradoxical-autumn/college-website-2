@@ -30,11 +30,18 @@
 
     .header-urls {
         flex-direction: column;
-        gap: 0rem;
+    }
+
+    .website-title {
+        text-align: center;
     }
 
     .navi-ctrl {
         align-items: center;
+    }
+
+    .hamburger-menu {
+        margin-bottom: 2rem;
     }
 }
 
