@@ -27,8 +27,8 @@ let target_y = 0;
 // }
 
 document.addEventListener("mousemove", (event) => {
-    target_x = event.pageX;
-    target_y = event.pageY;
+    target_x = event.screenX;
+    target_y = event.screenY;
 });
 
 function animate() {
