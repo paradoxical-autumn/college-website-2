@@ -3,10 +3,14 @@ a {
     transform-origin: center;
 }
 
-a:link, a:visited {
+.content-hypr, .content-hypr:visited {
+    color: oklch(68.23% 0.1881 295.1);
+}
+
+.header-urls > * {
     text-decoration: none;
 }
 
-a:hover {
+.header-urls > *:hover {
     scale: 90%;
 }
