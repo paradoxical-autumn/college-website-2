@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>autumn's website</title>
+    <link rel="stylesheet" href="/styles/style.css">
+    <script src="/scripts/parallax.js" type="module"></script>
+    <script src="/scripts/split-animations.js" type="module"></script>
+</head>
+<body>
+    <aside class="header glass">
+        <div class="header-content">
+            <h1 class="website-title">PARADOXICAL<br/>AUTUMN</h1>
+            <div class="navi-ctrl">
+                <label class="hamburger-menu">
+                    <input type="checkbox" name="Expanded menu">
+                </label>
+                <nav class="header-urls">
+                    <a class="titlebar-hypr" href="/">Home</a>
+                    <a class="titlebar-hypr" href="/about.html">About Me</a>
+                    <a class="titlebar-hypr" href="/blogs.html">Blog</a>
+                </nav>
+            </div>
+        </div>
+    </aside>
+    <div class="bgi" aria-hidden="true">
+        <div class="background-blob bgi1" prlx-in="0.1">
+            <img src="/img/bgi/uuundulate.svg"/>
+        </div>
+        <div class="background-blob bgi2" prlx-in="0.05">
+            <img src="/img/bgi/uuundulate-2.svg"/>
+        </div>
+        <div class="background-blob bgi3" prlx-in="0.025">
+            <img src="/img/bgi/uuundulate-3.svg"/>
+        </div>
+        <div class="background-blob bgi4" prlx-in="0.0125">
+            <img src="/img/bgi/uuundulate-4.svg"/>
+        </div>
+    </div>
+    <div class="body-content">
+        <div class="main glass-panel glass">
+            <h2>The &ltu&gt tag and why it should be avoided.</h2>
+        <p>Tuesday the 20th of August, 2024</p>
+        <hr/>
+        <p>Ah, the <u>underline tag</u> tag a quick and easy way to give emphasis to an <u>item</u> which is much more obvious that <u><b>bold</b></u> or <u><i>italicized</i></u> text. So why do I have such a <u>*******</u> problem with it?!</p>
+        
+        <h3>The World Before the Wide World of Web</h3>
+        <p>Before the introduction of computer assisted writing and highlighters, underlining was the only major way to give emphasis to some text string, as it was difficult to create bold and italic text. <b><i>Seriously!</i></b> Get out a piece of paper and try to write in <b>bold</b> or <i>italics</i>. You're gonna have a hard time.</p>
+        <p>Then, someone had an idea, what if we <u>underline</u> a piece of text, to show emphasis? It's quick and to the point; a sort of "look here! this is vital information!" sort of thing. Thus, the practice of underlining became commonplace.</p>
+        <p>Later down the line, in 1963, Dr. Frank Honn created the highlighter<sup><a class="content-hypr" href="https://www.legacy.com/us/obituaries/nytimes/name/francis-honn-obituary?id=20930022" target="_blank" ref="noreferrer">[source]</a></sup>, a quick and easy way to give emphasis, plus it's more colourful and can give some personality to your texts! I mean, back when you were in school, didn't you just <i>love</i> highlighters? I mean it might've just been me and all the other girls in my classes but shhhh. Oh yeah, this is assuming that when you were in school, you weren't allowed to use computers for your work.</p>
+        <p><i>If anyone in the far future finds this, yes, people had to work on pen and paper back when I was in school! There were exclusions for some people, usually for accessibility reasons, but most people had to work in a book. An <b>exercise</b> book if you might.</i></p>
+        
+        <h3>Computers, hyperlinks and emphasis, oh my!</h3>
+        <p><i>That didn't quite work, did it?</i></p>
+        <p>Now, when computers, and more importantly: the internet, came about we needed a way to identify <a class="content-hypr" href="https://youtu.be/iRY-rWc2MxE" target="_blank" ref="noreferrer">links to other pages</a>. Now, the much-smarter-than-me people behind the internet came up with an idea: "what if we underline hyperlinks?" and it stuck! Underlining hyperlinks became common practice among all web browsers and websites. Now, this is where my problem with the <code>&ltu&gt</code> tag originates.</p>
+        
+        <h3>Why I think the &ltu&gt tag should be phased out</h3>
+        <p>Okay, imagine if hyperlinks didn't have a unique colour on a website, or say, you <b>can't see colour</b>. How do you recognise a hyperlink? Usually, you notice how it's underlined <i>and</i> its unique colour, but you can't here. You'd have to hover/tap on each individual piece of underlined text and see if it's a hyperlink, or use context clues to work out what is, or is not, a hyperlink.</p>
+        <p>Actually, let's have a little experiment. What is a hyperlink in the following paragraph of nonsense text? (You'll need to be rendering CSS else this won't work.)</p>
+        <pre id="#nonsense-text">
+Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus quod, <u>ratione</u> illum facere minima voluptates neque <a href="#nonsense-text" style="color: #fff;">dolores assumenda fugiat</a> voluptas sunt, excepturi error fuga nisi nihil accusantium odio atque explicabo. Quod quis odit rem alias sequi. Est quaerat <a class="content-hypr" href="#nonsense-text" style="color: #fff">molestias eum</a>. Labore, quod officiis! <u>Ut maxime a veniam</u> quae fugiat nemo est, nihil id autem. Maiores quam voluptas dignissimos consectetur ipsa doloremque impedit, culpa laboriosam.</pre>
+        <p>If you managed to recognise any of those without hovering or tapping on them, congrats! Then you've solved this problem somehow. Get in touch and I'll personally write your name onto this article in the list below.</p>
+        <ul>
+            <li>No one yet.</li>
+        </ul>
+        <p>But as far as I'm concerned: <b>underlines should not be used for text emphasis on the internet.</b> They're too easily confused with hyperlinks, making accessibility difficult and just being a pain in general. Instead, trying thinking of more <code style="background-color: aquamarine; color: black">unique ways</code> to bring something to your reader's attention.</p>
+        <p>Some examples:</p>
+        <ul>
+            <li>Give it a <span style="background-color: #8143e6; color: #fff">highlight!</span></li>
+            <li>If not restricted by low-motion mode, <span split-by="letter" letter-animation="wave">make it do something fun!</span></li>
+            <li>Or, just use the tried and true <i>italics</i> and <b>bold</b> text.</li>
+        </ul>
+        <p>Thanks for reading, have a good day / evening / night, wherever you are! ttyl!</p>
+        </div>
+    </div>
+</body>
+</html>
