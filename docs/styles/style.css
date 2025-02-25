@@ -32,7 +32,7 @@ body {
 }
 
 .main {
-    margin: auto;
+    margin-right: auto;
 }
 
 .glass {
@@ -90,6 +90,7 @@ body {
 
 .sidebar {
     height: min-content;
+    padding-right: 5ch;
 }
 
 .website-title {
