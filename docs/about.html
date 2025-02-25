@@ -66,6 +66,55 @@
             <h1 id="education">Education</h1>
             <p>I had a fairly normal education. I wont go into detail about most of it, but only the things that
                 influenced me the most.</p>
+            <p>While I was in year 3 (or 2nd grade for you americans out there) my school introduced me to a piece of
+                software called <i>Scratch</i>, you might've heard of it. It allows you to create simple games using
+                building blocks of code in a visual way and man, I was HOOKED. I don't remember what I created but I
+                know that I made a <i>lot.</i>
+                It even got to a point where my parents sent me to a (single) dedicated class about scratch where we
+                made my most ambitious project yet, a (fairly simple) game where you're a shark trying to catch fish.
+                Sounds simple, but bear in mind I was probably 7 when I was creating this.
+            </p>
+            <p>It was also about this time that I was taking guitar lessons as a pass-time but nothing ever came from
+                those. It only showed my passion for music, but I think that was emphasised by my love of music class.
+            </p>
+            <p>...then came</p>
+            <h2>Secondary Education</h2>
+            <p><i>"Man, primary school was amazing! I wonder how much I'll like secondary??" ~ a foolish me</i></p>
+            <p>Secondary school for me was... difficult, but this isn't about that. I'm just glad I survived it, anyway.
+                During year 8 I was taught a very basic version of python and I was amazed by what I could do. It
+                started with a simple project to ask a user for their name and age and echo it back to them. Pretty
+                simple.
+            </p>
+            <p><i>...i did not keep it simple.</i></p>
+            <p>I realised that if you entered text during the age input, the program would crash due to incompatible
+                types. So... I made it my goal to prevent that. I then found out about exception handling and looping,
+                even before the teacher taught the rest of the class. <i>Fun fact: I was never taught exception handling
+                    officially.</i>
+            </p>
+            <p>The teacher was (or at least acted) shocked that I managed to do this from a simple introduction where
+                the most code we were expected to write was:
+            </p>
+            <pre>
+name = input("What's your name? ")
+age = int(input("How old are you? "))
+print("Hello," + name + "! You are" + age)</pre>
+            <p>...and yet I wrote something more like this:</p>
+            <pre>
+name = input("What's your name?\n> ")
+while True:
+    try:
+        age = int(input("How old are you?\n> "))
+        break
+    except TypeError:
+        print("That's not a number!!")
+
+print(f"Heya, {name}!! You're {age} but I don't know why I'd need to know that.")
+</pre>
+            <p class="subtext"><i>in case you couldn't tell, my <a href="https://www.dictionary.com/browse/irreverence" target="_blank"
+                rel="noreferrer noopener" class="content-hypr">irreverence</a> has been with me from a young
+            age.</i></p>
+            <p>and again, remember this was my first time writing python code!
+            </p>
         </div>
     </div>
 </body>
