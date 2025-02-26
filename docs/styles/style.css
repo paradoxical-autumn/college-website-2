@@ -9,6 +9,7 @@
 /* variables */
 :root {
     --bgc: #11151d;
+    --panel-color: oklch(45.22% 0.1432 290.53 / 25%);
     --secondary-colour: oklch(61.66% 0.1074 53.17);
     --primary-colour: oklch(72.77% 0.1758 42.4);
     --border-rounding: 1rem;
@@ -36,6 +37,10 @@ body {
     margin-right: auto;
 }
 
+.main > div {
+    margin-bottom: 1lh;
+}
+
 .glass {
     backdrop-filter: blur( 4px );
     -webkit-backdrop-filter: blur( 4px );
@@ -46,6 +51,11 @@ body {
     /* box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ); */
     border-radius: var(--border-rounding);
     border: 0.125rem solid rgba( 255, 255, 255, 0.18 );
+}
+
+.embedded-glass {
+    background-color: var(--panel-color);
+    padding: 0.25rem;
 }
 
 .body-content {

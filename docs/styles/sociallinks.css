@@ -32,3 +32,10 @@
     width: 60%;
     height: 60%;
 }
+
+.business-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
