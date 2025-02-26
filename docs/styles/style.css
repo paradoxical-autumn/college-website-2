@@ -16,6 +16,8 @@
     --content-width: 99ch;
 
     interpolate-size: allow-keywords;
+
+    --danger-colour: oklch(62.8% 0.1762 29.23);
 }
 
 /* HTML */
