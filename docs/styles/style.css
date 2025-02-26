@@ -43,6 +43,10 @@ body {
     margin-bottom: 1lh;
 }
 
+.solo-content {
+    min-width: 100%;
+}
+
 .glass {
     backdrop-filter: blur( 4px );
     -webkit-backdrop-filter: blur( 4px );
