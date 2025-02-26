@@ -56,7 +56,10 @@ body {
 }
 
 .embedded-glass {
-    background-color: var(--panel-color);
+    /* background-color: var(--panel-color); */
+    background-image: linear-gradient(68deg in oklch, rgb(255, 123, 66, 50%), rgb(129, 67, 230, 50%));
+    background-repeat: no-repeat;
+    border-radius: var(--border-rounding);
     padding: 0.25rem;
 }
 
