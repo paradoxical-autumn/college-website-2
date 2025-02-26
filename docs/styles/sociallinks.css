@@ -1,0 +1,33 @@
+/* prdx */
+:root {
+    --social-icons-size: 4em;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.social-links > a {
+    background-color: oklch(from var(--primary-colour) l c h / 25%);
+    border-radius: 100%;
+    
+    height: var(--social-icons-size);
+    width: var(--social-icons-size);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: scale 0.25s ease;
+}
+
+.social-links > a:hover {
+    scale: 90%;
+}
+
+.social-links > a > img {
+    width: 60%;
+    height: 60%;
+}
