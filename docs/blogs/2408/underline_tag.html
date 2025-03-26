@@ -6,6 +6,11 @@
     <title>autumn's website</title>
     <link rel="stylesheet" href="/styles/style.css">
     <script src="/scripts/parallax.js" type="module"></script>
+
+    <!-- load fonts async -->
+    <link rel="preload" href="/styles/fonts.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link ref="stylesheet" href="/styles/fonts.css"></noscript>
+
     <script src="/scripts/split-animations.js" type="module"></script>
 
     <!-- OpenGraph -->
